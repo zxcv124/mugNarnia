@@ -28,7 +28,7 @@ main {
   position: absolute;
   width: 100%;
   margin: 0px auto;
-  padding: 7.5vw 0em;
+  padding: 50vw 0em;
   
   display: grid;
   grid-template-columns:   repeat(12, 1fr);
