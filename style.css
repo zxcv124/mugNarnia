@@ -27,12 +27,12 @@ main {
   position: absolute;
   width: 100%;
   max-width: 10000px;
-  margin: 0;
+  margin: 0px auto;
   padding: 120px 0px;
   }
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
     grid-gap: 1rem;
   }
 
@@ -59,7 +59,7 @@ header {
   background: var(--dark-bg);
   grid-column: 2 / span 5;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 2rem;
   margin-bottom: var(--spacing);
 }
 
