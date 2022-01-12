@@ -10,7 +10,7 @@ canvas {
 
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
-  --spacing: 350px;
+  --spacing: 21em;
 
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
@@ -28,7 +28,7 @@ main {
   position: absolute;
   width: 100%;
   margin: 0px auto;
-  padding: 50vw 0em;
+  padding: 7.5em 0em;
   
   display: grid;
   grid-template-columns:   repeat(12, 1fr);
