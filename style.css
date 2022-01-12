@@ -15,20 +15,22 @@ canvas {
   font-weight: 400;
   font-style: normal;
 }
+main {
+  position: absolute;
 
-@supports (display: grid) {
-  main {
-    max-width: 10000px;
-    margin: 0;
-    position: absolute;
-    z-index: 99;
-  }
+  
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-    grid-gap: 1rem;
-  }
+  
 }
 
 h1,
