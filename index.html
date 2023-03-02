@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -7,33 +6,6 @@
     <link rel="icon" type="image/svg+xml" href="ssp.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mug Narnia</title>
-    <script>
-function createAmazonDeepLink(productId) {
-  // Check if the user is on an iOS or Android device
-  var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-  var isAndroid = /Android/.test(navigator.userAgent);
-
-  if (isIOS) {
-    // Open the Amazon app on iOS
-    window.location.href = 'amazon://www.amzn.to/' + productId;
-  } else if (isAndroid) {
-    // Determine if the Amazon app is installed on Android
-    var isInAmazonApp = navigator.userAgent.toLowerCase().indexOf('com.amazon.mobile.shopping') > -1;
-
-    if (isInAmazonApp) {
-      // Open the Amazon app on Android
-      window.location.href = 'amzn://www.amzn.to/' + productId;
-    } else {
-      // Open the Amazon website in the default browser
-      window.location.href = 'https://www.amzn.to/' + productId;
-    }
-  } else {
-    // Open the Amazon website in the default browser for other devices
-    window.location.href = 'https://www.amzn.to/' + productId;
-  }
-}
-</script>
-
   </head>
   <body>
     <canvas id="bg"></canvas>>
@@ -43,30 +15,54 @@ function createAmazonDeepLink(productId) {
         <h1>Mug Narnia's</h1>
         <p>🚀 Links!</p>
       </header>
+
+
+
+
+
       <section>
         <blockquote>
-          <a href="#" onclick="createAmazonDeepLink('3SdgggS'); return false;">View on Amazon</a>
+          <a href="https://amzn.to/3SdgggS">
           <img src="https://m.media-amazon.com/images/I/61pUil8n5SL._AC_SL1000_.jpg" alt="RINSE WELL BRSH WASHER">
-          <p>RINSE WELL BRSH WASHER</p>
+            <p>RINSE WELL BRSH WASHER</p>
+          </a>
         </blockquote>
       </section>
-      <section>
+    <section>
         <blockquote>
-          <a href="#" onclick="createAmazonDeepLink('3ZkX3wf'); return false;">View on Amazon</a>
-          <img src="https://m.media-amazon.com/images/I/61VzYmFCrGL._AC_SL1500_.jpg" alt="Valensole Migraine Hat">
-          <p>Valensole Migraine Hat</p>
+          <a href="https://amzn.to/3ZkX3wf">
+            <img src="https://m.media-amazon.com/images/I/61VzYmFCrGL._AC_SL1500_.jpg" alt="Valensole Migraine Hat">
+            <p>Valensole Migraine Hat</p>
+          </a>
         </blockquote>
       </section>
-      <section>
+    <section>
         <blockquote>
-          <a href="#" onclick="createAmazonDeepLink('3xGdAi9'); return false;">View on Amazon</a>
-          <img src="https://m.media-amazon.com/images/I/61d6bkiK0JL._AC_SL1500_.jpg" alt="Water Flosser">
+          <a href="https://amzn.to/3xGdAi9">
+            <img src="https://m.media-amazon.com/images/I/61d6bkiK0JL._AC_SL1500_.jpg" alt="Water Flosser">
             <p>Water Flosser</p>
+          </a>
         </blockquote>
       </section>
+      
+      
+      
+      
       <blockquote>
         <p>Thanks for visiting my page!</p>
       </blockquote>
+
+      
+
+
+
+
+
     </main>
+
+
+
+
+
   </body>
 </html>
